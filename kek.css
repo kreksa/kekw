@@ -20,8 +20,8 @@
         rgb(247, 34, 186) 50%,
         rgb(250, 107, 107) 100%
     );
-    height: calc(100vh + (var(--background-image-blur)));
-    width: calc(100vw + (var(--background-image-blur)));
+    height: calc(100vh + (var(--background-image-blur) * 2));
+    width: calc(100vw + (var(--background-image-blur) * 2));
 }
 #app-mount .layers-3iHuyZ,
 #app-mount .layerContainer-yqaFcK {
